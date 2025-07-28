@@ -10,7 +10,8 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 
 # 📁 Project Structure
 
-`persona_intel/
+```
+persona_intel/
 ├── Dockerfile
 ├── requirements.txt
 ├── main.py
@@ -19,4 +20,4 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 ├── utils.py
 ├── approach_explanation.md
 └── README.md
-`
+```
