@@ -9,10 +9,8 @@ docker build --platform linux/amd64 -t persona_intel .
 docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none persona_intel
 
 # 📁 Project Structure
-css
-Copy
-Edit
-persona_intel/
+
+`persona_intel/
 ├── Dockerfile
 ├── requirements.txt
 ├── main.py
@@ -21,4 +19,4 @@ persona_intel/
 ├── utils.py
 ├── approach_explanation.md
 └── README.md
-
+`
