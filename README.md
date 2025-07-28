@@ -1,5 +1,5 @@
 
-````
+
 # Adobe Hackathon Round 1B: Persona-Driven Document Intelligence
 
 This project implements an intelligent document analyst that extracts and ranks the most relevant sections from a collection of documents, tailored to a given persona and job-to-be-done.
@@ -12,7 +12,7 @@ This project implements an intelligent document analyst that extracts and ranks 
 docker build --platform linux/amd64 -t persona_intel .
 ````
 
----
+
 
 ## ▶ Run the Container
 
@@ -83,6 +83,6 @@ The container creates `/output/output.json` with:
 *  Completes in under 60 seconds for 3–5 PDFs
 *  No internet access during execution
 
-```
+
 
 
